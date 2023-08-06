@@ -18,8 +18,11 @@
   -->
 
   <main>
-    <route default>
+    <route path="/auth">
       <application name="@walcron/zelda-auth-react"></application>
+    </route>
+    <route default>
+      <application name="@single-spa/welcome"></application>
     </route>
   </main>
 </single-spa-router>
