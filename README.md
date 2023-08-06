@@ -1,6 +1,6 @@
 # Microfrontend container shell
 
-This project is the shell to expose all the routes to control all hosted microfrontend (framework agnostic).
+This project is the shell to expose all the routes to control all hosted microfrontend (framework agnostic). Difference from module federation is that root/shell does not implement logics, only shared library and routes.
 
 ## Usage
 
@@ -8,7 +8,7 @@ This project is the shell to expose all the routes to control all hosted microfr
 
 ```
 npm run start
-``` 
+```
 
 ## Adding new frameworks/engines
 
