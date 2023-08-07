@@ -40,9 +40,12 @@
           "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
           "react": "https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js",
           "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js",
+          "rxjs": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/es2015/rxjs.min.js",
+          "rxjs/operators": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/es2015/rxjs-operators.min.js",
           "@zelda-root/root-config": "https://zelda.walcron.com/zelda-root-root-config.js",
           "@walcron/zelda-main-react": "https://zelda-main.walcron.com/walcron-zelda-main-react.js",
-          "@walcron/zelda-auth-react": "https://zelda-auth.walcron.com/walcron-zelda-auth-react.js"
+          "@walcron/zelda-auth-react": "https://zelda-auth.walcron.com/walcron-zelda-auth-react.js",
+          "@walcron/zelda-shared-context": "https://zelda-auth.walcron.com/walcron-shared-context.js"
         }
       }
     </script>
@@ -61,7 +64,8 @@
         "imports": {
           "@zelda-root/root-config": "//localhost:9000/zelda-root-root-config.js",
           "@walcron/zelda-main-react": "//localhost:8400/walcron-zelda-main-react.js",
-          "@walcron/zelda-auth-react": "//localhost:8500/walcron-zelda-auth-react.js"
+          "@walcron/zelda-auth-react": "//localhost:8500/walcron-zelda-auth-react.js",
+          "@walcron/zelda-shared-context": "//locahost:8300/walcron-shared-context.js" 
         }
       }
     </script>
