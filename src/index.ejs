@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Root Config</title>
+    <title>Walcron Microfrontend</title>
 
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
     <!--
     Remove this if you only support browsers that support async/await.
     This is needed by babel to share largeish helper code for compiling async/await in older
@@ -40,12 +47,14 @@
           "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
           "react": "https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js",
           "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js",
+          "svelte": "https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js",
           "rxjs": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/es2015/rxjs.min.js",
           "rxjs/operators": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/es2015/rxjs-operators.min.js",
           "@zelda-root/root-config": "https://zelda.walcron.com/zelda-root-root-config.js",
           "@walcron/zelda-main-react": "https://zelda-main.walcron.com/walcron-zelda-main-react.js",
           "@walcron/zelda-auth-react": "https://zelda-auth.walcron.com/walcron-zelda-auth-react.js",
-          "@walcron/zelda-shared-context": "https://zelda-shared.walcron.com/walcron-zelda-shared-context.js"
+          "@walcron/zelda-shared-context": "https://zelda-shared.walcron.com/walcron-zelda-shared-context.js",
+          "@walcron/zelda-nav-svelte": "https://zelda-nav.walcron.com/walcron-zelda-nav-svelte.ts"
         }
       }
     </script>
@@ -65,7 +74,8 @@
           "@zelda-root/root-config": "//localhost:9000/zelda-root-root-config.js",
           "@walcron/zelda-main-react": "//localhost:8400/walcron-zelda-main-react.js",
           "@walcron/zelda-auth-react": "//localhost:8500/walcron-zelda-auth-react.js",
-          "@walcron/zelda-shared-context": "//localhost:8300/walcron-zelda-shared-context.js"
+          "@walcron/zelda-shared-context": "//localhost:8300/walcron-zelda-shared-context.js",
+          "@walcron/zelda-nav-svelte": "//localhost:4173/walcron-zelda-nav-svelte.js"
         }
       }
     </script>
