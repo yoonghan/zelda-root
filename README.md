@@ -2,6 +2,9 @@
 
 This project is the shell to expose all the routes to control all hosted microfrontend (framework agnostic). Difference from module federation is that root/shell does not implement logics, only shared library and routes.
 
+## Demo
+Try out in [Main Site](https://zelda.walcron.com)
+
 ## Usage
 
 1. To run the root
